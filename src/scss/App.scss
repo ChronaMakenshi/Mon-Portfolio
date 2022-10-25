@@ -1,0 +1,203 @@
+* {
+    font-family: Courier New, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+html, body {
+    margin : 0;
+    padding : 0;
+    height : 100%;
+  }
+
+.taillepoliceNom {
+    font-size: 3em;
+}
+
+.taillepolicetitre {
+    font-size: 1.5em;
+}
+
+.taillepolicetitreRealisation{
+    font-size: 2.5em;
+}
+
+.nav{
+    margin: 50%;
+}
+
+.taille-policenav{
+    font-size: 2.5em;
+}
+
+.cadre {
+    max-height: 100%;
+    height: 929px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.success {
+    color: #0ff40f;
+  }
+  
+.error {
+    color: #960303;
+}
+
+.msg {
+    display: none;
+}
+
+.msgAppear {
+    display: block;
+}
+
+@media only screen and (min-height: 940px) {
+    .cadre {
+        height: 945px;
+    }
+}
+
+@media only screen and (min-height: 950px) {
+    .cadre {
+        height: 961px;
+    }
+}
+
+@media only screen and (min-height: 1100px) {
+    .cadre {
+        height: 1289px;
+    }
+}
+
+@media only screen and (min-height: 2000px) {
+    .cadre {
+        height: 2009px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .cadre {
+        height: 200px;
+    }
+
+    .taillepoliceNom {
+        font-size: 2em;
+    }
+
+    .taillepolicetitreRealisation{
+        font-size: 1.5em;
+    }
+
+    .nav{
+        margin: 0;
+    }      
+}
+
+@media only screen and (max-width: 912px) {
+    .taillepoliceNom {
+        font-size: 2em;
+    }
+
+    .taillepolicetitre {
+        font-size: 1.5em;
+    }
+
+    .taillepolicetitreRealisation{
+        font-size: 1em;
+    }
+
+    img {
+        height: 450px;
+    }
+
+    .taille-policenav{
+        font-size: 1.5em;
+    }
+
+    .taillepolice {
+        font-size: 1em;
+    }
+
+    .taillepoliceaproops{
+        font-size: 1.5em;
+    }
+
+    .cadre {
+        height: 100px;  
+    }
+
+    .taille-footer{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .taillepoliceNom {
+        font-size: 1.5em;
+    }
+
+    .taillepolicetitre {
+        font-size: 1em;
+    }
+
+    .taille-policenav{
+        font-size: 1em;
+    }
+
+    .taillepolice {
+        font-size: 0.5em;
+    }
+
+    .cadre {
+        height: 100px;  
+    }
+
+    .taillepoliceaproops{
+        font-size: 1em;
+    }
+
+    img {
+        height: 250px;
+    }
+
+    .taille-footer{
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+        
+}  
+
+@media only screen and (max-width: 380px) {
+    .cadre {
+        height: 50px;  
+    }
+
+    
+    .taille-policenav{
+        font-size: 0.5em;
+    }
+}
+
+@media only screen and (max-width: 290px) {
+    .cadre {
+        height: 50px;  
+    }
+
+    .taillepoliceNom {
+        font-size: 1em;
+    }
+
+    .taillepolicetitre {
+        font-size: 0.5em;
+    }
+
+    .taillepoliceaproops{
+        font-size: 0.5em;
+    }
+}
+
+}
