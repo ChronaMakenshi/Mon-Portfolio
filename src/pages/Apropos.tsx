@@ -1,5 +1,5 @@
 import Typed from 'react-typed';
-import { motion } from "framer-motion";
+import {motion} from "framer-motion";
 
 const text = '"Christophe Mestdagh"'
 function Apropos() {
@@ -80,25 +80,28 @@ function Apropos() {
                         <li>Figma/Adobe xD</li>
                     </motion.ul>
                     <motion.h2 className="text-primary taillepoliceaproops"
-                        initial={{ opacity: 0, y: -239 }}
-                        animate={{ opacity: 1, y: 20 }}
-                        transition={{
-                            delay: 4,
-                            type: "spring",
-                            stiffness: 350,
-                            damping: 200
-                        }}><span className="text-white">&lt;</span>Expériences<span className="text-white">&gt;</span></motion.h2>
+                               initial={{opacity: 0, y: -239}}
+                               animate={{opacity: 1, y: 20}}
+                               transition={{
+                                   delay: 4,
+                                   type: "spring",
+                                   stiffness: 350,
+                                   damping: 200
+                               }}><span className="text-white">&lt;</span>Expériences<span
+                        className="text-white">&gt;</span></motion.h2>
                     <motion.p className="text-white taillepolice "
-                        initial={{ opacity: 0, y: -205 }}
-                        animate={{ opacity: 1, y: 20 }}
-                        transition={{
-                            delay: 4,
-                            type: "spring",
-                            stiffness: 350,
-                            damping: 200
-                        }}>
+                              initial={{opacity: 0, y: -205}}
+                              animate={{opacity: 1, y: 20}}
+                              transition={{
+                                  delay: 4,
+                                  type: "spring",
+                                  stiffness: 350,
+                                  damping: 200
+                              }}>
                         Pour plus d’informations,
-                        <a className="text-info link-primary text-decoration-none" href="http://">vous pouvez jeter un oeil à mon CV ici</a></motion.p>
+                        <a className="text-info link-primary text-decoration-none"
+                           href="https://cv.mestdagh-christophe.ovh/">vous pouvez jeter un oeil à mon CV ici</a>
+                    </motion.p>
                 </div>
             </div>
         </div>

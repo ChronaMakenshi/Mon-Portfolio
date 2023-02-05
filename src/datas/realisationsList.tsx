@@ -1,7 +1,15 @@
-import redscorpio4 from '../assets/Redscorpio4.png'
-import react from '../assets/react.png'
-import angular from '../assets/Angular.png'
-import htmlcss from '../assets/HTML-CSS.png'
+// @ts-ignore
+import redscorpio4 from '../assets/Redscorpio4.webp'
+// @ts-ignore
+import react from '../assets/react.webp'
+// @ts-ignore
+import angular from '../assets/Angular.webp'
+// @ts-ignore
+import htmlcss from '../assets/HTML-CSS.webp'
+// @ts-ignore
+import wordpress from '../assets/wordpress.webp'
+// @ts-ignore
+import cours from '../assets/cours.webp'
 
 
 export const realisationsList = [
@@ -42,6 +50,26 @@ export const realisationsList = [
         programme: 'HTML/CSS',
         github: 'https://github.com/ChronaMakenshi/HTML-CSS',
         width: "700px",
+        height: "500px"
+    },
+
+    {
+        id: '5',
+        name: 'Cours OpenClassRooms Wordpress',
+        image: wordpress,
+        programme: 'Wordpress',
+        github: 'https://github.com/ChronaMakenshi/Wordpress_cours',
+        width: "700px",
+        height: "500px"
+    },
+
+    {
+        id: '6',
+        name: 'Site de cours pour CFSMA',
+        image: cours,
+        programme: 'Symfony 6',
+        github: 'https://github.com/ChronaMakenshi/CFSMA',
+        width: "1000px",
         height: "500px"
     },
 ]

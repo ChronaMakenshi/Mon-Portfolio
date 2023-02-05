@@ -5,7 +5,7 @@ function Realisation() {
         <div className='col-xl-9'>
             <div className='m-5'>
                 <h1 className="text-danger text-center taillepoliceNom">Mes Réalisations</h1>
-                <CarouselRealisation />
+                <CarouselRealisation/>
             </div>
         </div>
     );
